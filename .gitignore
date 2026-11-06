@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Training / inference artifacts
+experiments/
+tb_logger/
+results/
+result_*/
+*.pth
+*.log
+
+# Datasets (keep the folder skeleton, ignore the content)
+datasets/*/*/*/*
+!datasets/*/*/*/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
